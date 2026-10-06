@@ -143,3 +143,5 @@ vite.config.ts.timestamp-*
 .vite/
 
 core.*
+# ignore the node module directory
+.node_modules/

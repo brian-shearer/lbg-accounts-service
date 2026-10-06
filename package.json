@@ -1,0 +1,35 @@
+{
+  "name": "lbg-accounts-service",
+  "version": "1.0.0",
+  "description": "Demo application fo a microservice using AWS dynamoDB as a database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian-shearer/lbg-accounts-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brian-shearer/lbg-accounts-service/issues"
+  },
+  "homepage": "https://github.com/brian-shearer/lbg-accounts-service#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1146.0",
+    "@aws-sdk/lib-dynamodb": "^3.1146.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "joi": "^18.2.9",
+    "morgan": "^1.12.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
